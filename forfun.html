@@ -6,6 +6,28 @@
     </title>
   </head>
     <style>
+      img {
+        border: 2px solid black
+      }
+      div {
+        font-family: Comic Sans MS, cursive;
+      }
+      .name {
+        font-family: Times New Roman, cursive;
+        font-weight: bold;
+        font-size: 60px;
+        padding: 10px;
+        border: 2px solid black;
+        width: 300px;
+        margin-top: 50px;
+      }
+
+      #news, #hotpics {
+        text-align: center;
+        margin-top: 50px;
+      }
+
+
       h1 {
         color: white;
         text-align: left;
@@ -15,14 +37,22 @@
       }
     </style>
   <body>
+    <div>
     <h1 style="color:black;text-align:center">
       The Daily Garf
     </h1>
-    <h3 style="color:lightgrey;text-align:center">
+    </div>
+    <h3 style="color:white;text-align:center;font-family:Arial">
       Your source of everything, Garfield.
     </h3>
-      <p>
-        <img src="https://www.pinclipart.com/picdir/middle/113-1138850_hey-heres-sexy-garfield-sexy-garfield-clipart.png" height="200"> sex
-      </p>
+      <div style="text-align:center">
+        <img src="https://www.pinclipart.com/picdir/middle/113-1138850_hey-heres-sexy-garfield-sexy-garfield-clipart.png" height="200">
+      </div>
+    <div id="news">
+      <span class="name">News</span>
+    </div>
+    <div id="hotpics">
+      <span class="name">Hot Pictures</span>
+    </div>
   </body>
 </html>
